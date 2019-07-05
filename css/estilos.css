@@ -1,15 +1,26 @@
 body{
     color: #333;
-    text-align: center;
     font-family: "Arial";
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
+#cabecera{
+    background:  #33a;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5ems;
+}
 
+#cabecera #tagline{
+    font-weight: normal;
+    padding: 1em 0 0 0;
+    font-size: 0.8em;
+}
 #container{
     width: 70%;
-    padding: 1em;
+    padding: 1rem;
     text-align: center;
     border: 2px solid #DDD;
     margin: 0 auto;
