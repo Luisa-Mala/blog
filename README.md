@@ -12,10 +12,7 @@ git remote
 git remote -v
 ```
 
-### Tercero: Traer la versión del repositorio remoto y
-### hacer merge para crear un commit con los archivos
-### de ambas partes. Podemos usar git fetch y git merge
-### o solo el git pull con el flag --allow-unrelated-histories:
+### Tercero: Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes. Podemos usar git fetch y git merge o solo el git pull con el flag --allow-unrelated-histories:
 ```bash
 git pull origin master --allow-unrelated-histories
 ```
@@ -24,3 +21,28 @@ git pull origin master --allow-unrelated-histories
 ```bash
 git push origin master
 ```
+## Comandos
+```bash
+git stash
+```
+Guarda un estado temporal
+
+```bash
+git stash list
+```
+Muestra la lista de stash que tenemos
+
+```bash
+git stash pop
+```
+Restablece el estado que teniamos guardados
+
+```bash
+git stash branch nameBranch 
+```
+Se le asigna el stash a una rama
+
+```bash
+git stash drop
+```
+Elimina un stash
