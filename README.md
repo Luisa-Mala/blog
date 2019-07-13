@@ -46,3 +46,45 @@ Se le asigna el stash a una rama
 git stash drop
 ```
 Elimina un stash
+
+////
+
+```bash
+git clean --dry-run
+```
+Muestra una lista de archivos que no son necesarios en el proyecto
+
+```bash
+git clean -f
+```
+Borra los archivos listado (exepto los que se encuentran en .gitignore)
+
+```bash
+git cherry-pick idCommit
+```
+Permite sacar cambios (commits) especifícos de una rama y pasarlos a otra
+
+```bash
+git commit --amend --no-edit
+```
+Permite editar el mensaje del commit
+
+```bash
+git --amend
+```
+Permite editar el commit y los archivos
+
+```bash
+git reflog
+```
+muestra una lista de toda la historia de commits, cada uno con su hash y HEAD
+
+```bash
+git reset --soft idHead 
+```
+mantiene lo que tengas en staging ahí.
+
+```bash
+git reset --hasrd idHead 
+```
+Resetea absolutamente todo incluyendo lo que tengas en staging.
